@@ -24,7 +24,11 @@ output_path="path/where/you/want/output/to/be/stored"
 #Perform registration
 python final_registration.py \
 	--path $data_dir \
-	--tissue_name $tissue_name
-	--output_path $output_path
-	--model_path $model_path
+	--tissue_name $tissue_name \
+	--output_path $output_path \
+	--model_path $model_path \
 ```
+
+# Citation
+If you use this pipeline in your research, please cite the following paper:
+Pending
