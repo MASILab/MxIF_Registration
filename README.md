@@ -4,3 +4,8 @@ This pipeline can be used to perform deformable registration for MxIF images usi
 2. It uses the individual rounds of DAPI as anchors and registers the stains associated with each round of DAPI into a unified space.
 3. After registering all of the DAPI rounds back to the initial round, it adjusts the intensity differences between the different rounds of DAPI and averages them to make a representative DAPI image that accounts for all rounds.
 
+#Installation
+Please clone this repo and use conda to create a python environment using the yml file provided.
+'''
+conda env create --name mxif_registration -f environment.yml
+'''
