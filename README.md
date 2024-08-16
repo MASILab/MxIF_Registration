@@ -6,6 +6,6 @@ This pipeline can be used to perform deformable registration for MxIF images usi
 
 #Installation
 Please clone this repo and use conda to create a python environment using the yml file provided.
-'''
+```
 conda env create --name mxif_registration -f environment.yml
-'''
+```
